@@ -1,0 +1,11 @@
+<project>
+
+	<target name="test" depends="pre-test">
+		<echo message="test message"/>
+	</target>
+	
+	<target name="pre-test">
+		<echo message="pre-test message"/>
+	</target>
+
+</project>
