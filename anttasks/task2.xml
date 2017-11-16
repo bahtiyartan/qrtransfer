@@ -1,0 +1,11 @@
+<project>
+
+	<target name="task2-0">
+		<echo message="version : ${version} "/>
+	</target>
+
+	<target name="task2-1" depends="task2-0">
+		<echo message="build : ${build} "/>
+	</target>
+	
+</project>

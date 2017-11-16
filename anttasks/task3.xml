@@ -1,0 +1,60 @@
+<project>
+
+	<property name="report" location="../testreports"/>
+	<property name="testdir" location="../src"/>
+	<property name="buildtest" location="../bin"/>
+	
+	<path id="classpath.test">
+	  <pathelement location="../lib/junit-4.10.jar" />
+	  <pathelement location="${testdir}" />
+	  <pathelement location="${src}" />
+	</path>
+
+
+	<target name="task3-0">
+		<echo message="this is task3-0"/>
+		
+		<junit printsummary="yes" showoutput="yes">
+			<classpath refid="classpath.test" />
+			<classpath>
+				<pathelement location="${buildtest}" />
+			</classpath>
+		   
+			<batchtest fork="yes" todir="${report}/xml">
+				<fileset dir="${testdir}/">
+					 <include name="**/*Test*.java" />
+					 <include name="**/*Unit*.java" />
+					 <!-- WARNING! : suit tanimlanirsa wildcart sebebiyle hem suit hem icerdigi testler calisabilir -->
+					 <!-- <exclude name="**/*Stub*"/> -->
+				</fileset>
+		   </batchtest>
+		   
+		   <!-- test name="UnexistingTest" todir="${report}/xml/"/ --> 
+		   <!--   yada direk isim yazabiliriz -->
+		   
+		   <!-- alttaki usefile true olmak zorunda yoksa 
+		   html cikartmiyor consela yaziyor sadece  html cikartmasi icinde hepsinin bir xml dosyaso olusmasi lazim report dosyasinda
+			test spnuclarini xmle olsututur
+		   -->
+
+		   <formatter type="xml" usefile="true" />
+		   
+		</junit>
+		
+		
+		<junitreport todir="${report}/xml">
+		   <fileset dir="${report}/xml">
+				<include name="TEST-*.xml" />
+		   </fileset>
+		  
+		   <!-- noframe yazarsak tek html dosyasi olusur frame yazarsak birden fazla olusuyor.
+		   burtun testler tek erkanda test sayisi cogaldikca gorunum kotu olucak sanirim -->
+		   <report format="frames" todir="${report}/html" />
+		   <report format="noframes" todir="${report}/html_noframe" />
+
+		  </junitreport>
+		
+		
+	</target>
+	
+</project>

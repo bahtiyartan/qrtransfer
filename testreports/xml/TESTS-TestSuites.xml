@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="XPS13-BTAN" id="0" name="Base64EncoderTest" package="com.yedibit.test" skipped="0" tests="1" time="0.068" timestamp="2017-08-10T13:54:42">
+      <properties>
+          <property name="ant.project.invoked-targets" value="task3-0" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_141\bin" />
+
+          <property name="java.vm.version" value="25.141-b15" />
+
+          <property name="ant.library.dir" value="C:\Program Files\apache-ant-1.10.1\lib" />
+
+          <property name="user.country.format" value="TR" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.country" value="US" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="user.dir" value="C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks" />
+
+          <property name="java.runtime.version" value="1.8.0_141-b15" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="basedir" value="C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_141\lib\endorsed" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.io.tmpdir" value="C:\Users\BAHTIYAR\AppData\Local\Temp\" />
+
+          <property name="ant.core.lib" value="C:\Program Files\apache-ant-1.10.1\lib\ant.jar" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.variant" value="" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="ant.home" value="C:\Program Files\apache-ant-1.10.1\bin\.." />
+
+          <property name="sun.jnu.encoding" value="Cp1254" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Dell\DW WLAN Card;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Git\mingw64\libexec\git-core;C:\Program Files\Git\bin;C:\Users\BAHTIYAR\AppData\Local\Android\sdk\platform-tools\;C:\gradle\gradle-3.3\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\Users\BAHTIYAR\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\apache-ant-1.10.1\bin;." />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="testdir" value="C:\Users\BAHTIYAR\workspace\QRTransfer\src" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="ant.file" value="C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks\task3.xml" />
+
+          <property name="user.home" value="C:\Users\BAHTIYAR" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="file.encoding" value="Cp1254" />
+
+          <property name="user.name" value="BAHTIYAR" />
+
+          <property name="java.class.path" value="C:\Users\BAHTIYAR\workspace\QRTransfer\lib\junit-4.10.jar;C:\Users\BAHTIYAR\workspace\QRTransfer\src;C:\Users\BAHTIYAR\workspace\QRTransfer\bin;C:\Program Files\apache-ant-1.10.1\lib\ant-launcher.jar;C:\Program Files\apache-ant-1.10.1\lib\ant.jar;C:\Program Files\apache-ant-1.10.1\lib\ant-junit.jar;C:\Program Files\apache-ant-1.10.1\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_141" />
+
+          <property name="buildtest" value="C:\Users\BAHTIYAR\workspace\QRTransfer\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.yedibit.test.Base64EncoderTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\BAHTIYAR\workspace\QRTransfer\testreports\xml\TEST-com.yedibit.test.Base64EncoderTest.xml crashfile=C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks\junitvmwatcher7068669473776705049.properties propsfile=C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks\junit3239002081899494688.properties" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.language" value="en" />
+
+          <property name="user.language.format" value="tr" />
+
+          <property name="build" value="000000" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.version" value="1.8.0_141" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_141\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_141\lib\resources.jar;C:\Program Files\Java\jre1.8.0_141\lib\rt.jar;C:\Program Files\Java\jre1.8.0_141\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_141\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_141\lib\jce.jar;C:\Program Files\Java\jre1.8.0_141\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_141\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_141\classes" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="report" value="C:\Users\BAHTIYAR\workspace\QRTransfer\testreports" />
+
+          <property name="version" value="5.02.04" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+      </properties>
+
+      <testcase classname="com.yedibit.test.Base64EncoderTest" name="test" time="0.016" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="XPS13-BTAN" id="1" name="CompressorTest" package="com.yedibit.test" skipped="0" tests="2" time="0.1" timestamp="2017-08-10T13:54:42">
+      <properties>
+          <property name="ant.project.invoked-targets" value="task3-0" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_141\bin" />
+
+          <property name="java.vm.version" value="25.141-b15" />
+
+          <property name="ant.library.dir" value="C:\Program Files\apache-ant-1.10.1\lib" />
+
+          <property name="user.country.format" value="TR" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.country" value="US" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="user.dir" value="C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks" />
+
+          <property name="java.runtime.version" value="1.8.0_141-b15" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="basedir" value="C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_141\lib\endorsed" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.io.tmpdir" value="C:\Users\BAHTIYAR\AppData\Local\Temp\" />
+
+          <property name="ant.core.lib" value="C:\Program Files\apache-ant-1.10.1\lib\ant.jar" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.variant" value="" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="ant.home" value="C:\Program Files\apache-ant-1.10.1\bin\.." />
+
+          <property name="sun.jnu.encoding" value="Cp1254" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Dell\DW WLAN Card;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Git\mingw64\libexec\git-core;C:\Program Files\Git\bin;C:\Users\BAHTIYAR\AppData\Local\Android\sdk\platform-tools\;C:\gradle\gradle-3.3\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\Users\BAHTIYAR\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\apache-ant-1.10.1\bin;." />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="testdir" value="C:\Users\BAHTIYAR\workspace\QRTransfer\src" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="ant.file" value="C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks\task3.xml" />
+
+          <property name="user.home" value="C:\Users\BAHTIYAR" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="file.encoding" value="Cp1254" />
+
+          <property name="user.name" value="BAHTIYAR" />
+
+          <property name="java.class.path" value="C:\Users\BAHTIYAR\workspace\QRTransfer\lib\junit-4.10.jar;C:\Users\BAHTIYAR\workspace\QRTransfer\src;C:\Users\BAHTIYAR\workspace\QRTransfer\bin;C:\Program Files\apache-ant-1.10.1\lib\ant-launcher.jar;C:\Program Files\apache-ant-1.10.1\lib\ant.jar;C:\Program Files\apache-ant-1.10.1\lib\ant-junit.jar;C:\Program Files\apache-ant-1.10.1\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_141" />
+
+          <property name="buildtest" value="C:\Users\BAHTIYAR\workspace\QRTransfer\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.yedibit.test.CompressorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\BAHTIYAR\workspace\QRTransfer\testreports\xml\TEST-com.yedibit.test.CompressorTest.xml crashfile=C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks\junitvmwatcher8778515963766064601.properties propsfile=C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks\junit1655802564404834077.properties" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.language" value="en" />
+
+          <property name="user.language.format" value="tr" />
+
+          <property name="build" value="000000" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.version" value="1.8.0_141" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_141\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_141\lib\resources.jar;C:\Program Files\Java\jre1.8.0_141\lib\rt.jar;C:\Program Files\Java\jre1.8.0_141\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_141\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_141\lib\jce.jar;C:\Program Files\Java\jre1.8.0_141\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_141\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_141\classes" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="report" value="C:\Users\BAHTIYAR\workspace\QRTransfer\testreports" />
+
+          <property name="version" value="5.02.04" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+      </properties>
+
+      <testcase classname="com.yedibit.test.CompressorTest" name="testDecompression" time="0.007">
+          <failure message="expected:&lt;[Hello World]&gt; but was:&lt;[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[Hello World]&gt; but was:&lt;[]&gt;
+	at com.yedibit.test.CompressorTest.testDecompression(CompressorTest.java:35)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.yedibit.test.CompressorTest" name="testCompression" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="2" hostname="XPS13-BTAN" id="2" name="MultiTest" package="com.yedibit.test" skipped="0" tests="5" time="0.085" timestamp="2017-08-10T13:54:43">
+      <properties>
+          <property name="ant.project.invoked-targets" value="task3-0" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_141\bin" />
+
+          <property name="java.vm.version" value="25.141-b15" />
+
+          <property name="ant.library.dir" value="C:\Program Files\apache-ant-1.10.1\lib" />
+
+          <property name="user.country.format" value="TR" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.country" value="US" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="user.dir" value="C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks" />
+
+          <property name="java.runtime.version" value="1.8.0_141-b15" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="basedir" value="C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_141\lib\endorsed" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.io.tmpdir" value="C:\Users\BAHTIYAR\AppData\Local\Temp\" />
+
+          <property name="ant.core.lib" value="C:\Program Files\apache-ant-1.10.1\lib\ant.jar" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.variant" value="" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="ant.home" value="C:\Program Files\apache-ant-1.10.1\bin\.." />
+
+          <property name="sun.jnu.encoding" value="Cp1254" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Dell\DW WLAN Card;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Git\mingw64\libexec\git-core;C:\Program Files\Git\bin;C:\Users\BAHTIYAR\AppData\Local\Android\sdk\platform-tools\;C:\gradle\gradle-3.3\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\Users\BAHTIYAR\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\apache-ant-1.10.1\bin;." />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="testdir" value="C:\Users\BAHTIYAR\workspace\QRTransfer\src" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="ant.file" value="C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks\task3.xml" />
+
+          <property name="user.home" value="C:\Users\BAHTIYAR" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="file.encoding" value="Cp1254" />
+
+          <property name="user.name" value="BAHTIYAR" />
+
+          <property name="java.class.path" value="C:\Users\BAHTIYAR\workspace\QRTransfer\lib\junit-4.10.jar;C:\Users\BAHTIYAR\workspace\QRTransfer\src;C:\Users\BAHTIYAR\workspace\QRTransfer\bin;C:\Program Files\apache-ant-1.10.1\lib\ant-launcher.jar;C:\Program Files\apache-ant-1.10.1\lib\ant.jar;C:\Program Files\apache-ant-1.10.1\lib\ant-junit.jar;C:\Program Files\apache-ant-1.10.1\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_141" />
+
+          <property name="buildtest" value="C:\Users\BAHTIYAR\workspace\QRTransfer\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.yedibit.test.MultiTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\BAHTIYAR\workspace\QRTransfer\testreports\xml\TEST-com.yedibit.test.MultiTest.xml crashfile=C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks\junitvmwatcher7006532625427422645.properties propsfile=C:\Users\BAHTIYAR\workspace\QRTransfer\anttasks\junit1367187145403906305.properties" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.language" value="en" />
+
+          <property name="user.language.format" value="tr" />
+
+          <property name="build" value="000000" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.version" value="1.8.0_141" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_141\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_141\lib\resources.jar;C:\Program Files\Java\jre1.8.0_141\lib\rt.jar;C:\Program Files\Java\jre1.8.0_141\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_141\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_141\lib\jce.jar;C:\Program Files\Java\jre1.8.0_141\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_141\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_141\classes" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="report" value="C:\Users\BAHTIYAR\workspace\QRTransfer\testreports" />
+
+          <property name="version" value="5.02.04" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+      </properties>
+
+      <testcase classname="com.yedibit.test.MultiTest" name="mytestmethod[0]" time="0.001" />
+
+      <testcase classname="com.yedibit.test.MultiTest" name="mytestmethod[1]" time="0.0" />
+
+      <testcase classname="com.yedibit.test.MultiTest" name="mytestmethod[2]" time="0.004">
+          <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
+	at com.yedibit.test.MultiTest.mytestmethod(MultiTest.java:41)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.yedibit.test.MultiTest" name="mytestmethod[3]" time="0.0" />
+
+      <testcase classname="com.yedibit.test.MultiTest" name="mytestmethod[4]" time="0.0">
+          <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
+	at com.yedibit.test.MultiTest.mytestmethod(MultiTest.java:41)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[sdfsdf
+Parameterized Number is : 2
+sdfsdf
+Parameterized Number is : 6
+sdfsdf
+Parameterized Number is : 19
+sdfsdf
+Parameterized Number is : 22
+sdfsdf
+Parameterized Number is : 23
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

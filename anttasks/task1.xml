@@ -1,0 +1,19 @@
+<project>
+
+	<target name="task1-0">
+		<echo message="this is task1-0"/>
+	</target>
+
+	<target name="task1-1" depends="task1-0">
+		<echo message="this is task1-1"/>
+	</target>
+	
+	<target name="task1-2">
+		<echo message="this is task1-2"/>
+	</target>
+	
+	<target name="task1-3">
+		<echo message="this is task1-3"/>
+	</target>
+	
+</project>
